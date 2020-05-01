@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <a href="http://facebook.com"targe="blank"> facebook</a>
-    <a href="http:google.com"target="blank">google</a>
-    <!-- <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about us</a></li>
-        <li><a href="contact.html">contact us</a></li>
-    </ul>
-    <h1>this is home page</h1> -->
+    <form action="" method="get">
+        <p>username:
+<input type="text" name="username" size="15" maxlength="30">
+</p>
+<p>
+    password:
+    <input type="password" name="password">
+</p>
+<p>
+comments:
+</p>
+<textarea name="comments" cols="30" rows="10"></textarea>
+<p>
+gender:
+male: <input type="radio" name="gender" value="male">
+female: <input type="radio" name="gender" value="female">
+</p>
+    <p>answer: <br>
+        more then one option. <br>
+        apple<input type="checkbox" name="answer" value="apple"><br>
+        ball<input type="checkbox" name="answer" value="ball"><br>
+        cat<input type="checkbox" name="answer" value="cat"><br>
+        dog<input type="checkbox" name="asnwer" value="dog"><br>
+    </p>
+    <p>select your country
+        <select name="country" >
+            <option value="pakistan">pakistan</option>
+            <option selected value="india">india</option>
+            <option value="autralia">australia
+            </option>
+        </select>
+    </p>
+    <p>upload file:
+        <input type="file" name="assginment">
+    </p>
+    <p>submit response
+        <input type="submit" value="submit">
+    </p>
+
+    <input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAgVBMVEX+/P7+/f4AAAC4t7hEQkRTUVPX1tf6+fp3dnfDwsNtbG1hX2H19PW/vr9JSEmvrq/m5eaNjI3f3t+op6jt7O0RDhE4NzjQz9DKyco+PT6joqOCgIJkY2Rwb3AkIyRbWVuWlZYbGRssKSweHB6TkpMoJSgKBQp/fX8yMDJGRkYVEhU3+U1+AAAD8UlEQVR4nO3ZDVObQBAGYHcJ+SBAAiEkQAwx0cTk///ALlFn1Om0crG3O/Z9ZrTtKHLz7t2y2Ls7AAAAAAAAgD8g0C4BAAAAAAAAgHnaL+8GaJcAAAAAAMAs7WHdAGSADDraR9EE7SIYoF0CADBEuyEZoF0CAAAAADBKe1A1QLsEAABgjPaDyQDtEgAAmKLdlA3QLgH8IP/7ZpYlxPkk0JOsCt0YiIo6ZG3PzVAvBSoa5v14NhnqWQdZynxeK6VAM+bNqt+J/CcNodgdORophEA05kpxE74jPanhw9x1KTek3/Lp2yp5uzVz7nblDdlPeWdhD7yhnNl5JzjeMuNHSxFcQ9iOvN5wxRtbEciaJnzvc030fIw93u5r6MQrfyHIU3FmbRvIqmIOPWZQXexFcG1SQ4d1uT1OcmmIjg8ix+u+Zs5Z/4sc81445E1xvYnkBNGklvZNSU0ULIT8JJrVRfctRR0Qyceq7r6w6H/caDDwtT9lQux/q3jLm5anRPcs7ZQ23E1ZZcUsYZTXWYMeOSXiVv68euqfQcO+WjVVZf/l1bJ35NOKxssug0gymO5lJ1YHovPy0n3P4dhKBtPuwETHkcMulV6de9oIdGj7Z7Djycv5e5fBk/wzrIgGKSdyNJZV+JJB92WXdyBKeO0rg2X/YUT6FZfZ5GMGD1nWpgVRFTVyCtJm8z4Dl4WtJUuH61xudYkc9mmRlczVxwyaU9S18mo65zzneXtrBhPZbA7XudxqnzpkQNdX3NnnszCT7Vu1VGbZgMJbMwhcJkW353B77H9NFlE3WCyugwzR/vk1g0S2r2QQ8DF4y0B0/cDBjove1zhm8OhwqxlPk6CUC+f8sFucWUaB9rLbZUeOuwxGvBzdnsF02/8yh/12d209Qf+mOJN2EHYTUd4euZQfQKf0fE5Pc6LNWPaD9Mv7e+mMp+4sNKnLWRh5fJsdubycSDuIr6m/+8trIT5/vH3ue4fEoTauZB7zNYv0QenFqZO6KWSitSeRkbs/58Qzj7vuiyi+bL3+gp2eff8G868o9DYov95wzpfCVAjyMuv7F9204qWhvijPVz55X46EIIOvjRSI5hU3Gv/ZJvcNhzc01u9ahzymMlb6JW83nnO6yJ2m2m9zVyRj5qlah6biccvMZahncJAFRCvF3Sh1GNbjcKAn3WSTWPs8qh6EF7oBAPwY2kfZAO0SAAAAAAAAmKb90maAdglM0C6CAdolAABDtBuSAdolAAAAAACjtAdVA7RLYIJ2EQzQLgEYob0RDdAuAQAAgDnaD2cDtEsAAABgjvbD2QBkgAw62kcRAAAAwCTtIc0AZIBZGQAAAH5De0Ax4BdSvErW28cxFQAAAABJRU5ErkJggg=="> <br>
+<input type="hidden" value="submit">  
+<label for="username">username: </label>
+<input type="text" name="username" id="username">
+<fieldset>
+    <legend>
+        contact details
+    </legend>
+    <label for="email">Email: <br>
+    <input required type="text" name="email" id="email"></label><br>
+    <label for="tele">Telephone: <br>
+    <input required type="number" name="telephone" id="tele"></label>
+</fieldset>
+<button type="submit">submit</button>
+<label for="DB">Date</label>
+<input type="date" name="dateofbirth" id="DB">
+email:
+<input type="email" name="" id="">
+url:
+<input type="url" name="" id="">
+search:
+<input type="search" name="" id="">
+</form>
+<form action="">
+    <input type="text" placeholder="enter your name">
+</form>
+
+
+
 </body>
 </html>
